@@ -1,0 +1,7 @@
+const GET = "GET_CONTACT";
+const ADD = "ADD_CONTACT";
+const DETAIL = "DETAIL_CONTACT";
+const UPDATE = "UPDATE_CONTACT";
+const DELETE = "DELETE_CONTACT";
+
+export { GET, ADD, DETAIL, UPDATE, DELETE };

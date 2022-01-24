@@ -1,0 +1,20 @@
+// import abstracts
+@import "abstracts/variables";
+@import "abstracts/mixins";
+
+// import base
+@import "base/base";
+
+// import utils
+@import "utils/utils";
+
+// import components
+@import "components/topbar";
+@import "components/list-contact";
+@import "components/card-contact";
+@import "components/form-contact";
+
+// import pages
+@import "pages/home";
+@import "pages/add-contact";
+@import "pages/update-contact";
