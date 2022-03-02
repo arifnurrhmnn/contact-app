@@ -103,6 +103,7 @@ export const updateContact = (data) => {
     axios
       .put(apiUrl + data.id, data)
       .then((response) => {
+        console.log("data", response);
         dispatch({
           type: UPDATE,
           payload: {
